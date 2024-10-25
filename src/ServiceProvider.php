@@ -35,10 +35,11 @@ class ServiceProvider extends AddonServiceProvider
                 'afp_dw_protection'        => [
                     'display'      => __('Protect with "David Walsh" javascript technique'),
                     'type'         => 'toggle',
-                    'instructions' => __('Some instructions. FIXME'),
+                    'instructions' => __('Enable to automatically generate an input on submission and check for its presence on validation. Rejects any forms where the input is not present. Requires all form submissions to have Javascript enabled.'),
                 ],
                 'afp_dw_noscript_location' => [
                     'display' => __('Where to show "Javascript" requirement'),
+                    'instructions' => __( 'Choose whether to output a &lt;noscript&gt; element in the form advising users that javascript is required, and where it should be output.'),
                     'type'    => 'select',
                     'options' => [
                         [
