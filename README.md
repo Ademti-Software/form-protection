@@ -1,18 +1,16 @@
 # Form Protection
 
-> Form Protection is a Statamic addon that's currently under development and not ready for use just yet...
+> Form Protection is a Statamic addon that adds David-Walsh inspired anti-spam protection to Forms.
 
 ## Features
 
-This addon does:
+This addon adds configuration to your Statamic forms that lets you:
 
-- This
-- And this
-- And even this
+- Enable the protection on a form-by-form basis
+- Output no-script notifications at the start or end of the form
+- Auto-generates the required INPUT fields on form submission without requiring any templating changes
 
 ## How to Install
-
-You can install this addon via Composer, but don't just yet...
 
 ``` bash
 composer require ademti-software/form-protection
