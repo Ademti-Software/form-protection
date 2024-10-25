@@ -20,4 +20,4 @@ composer require ademti-software/form-protection
 
 Edit any forms you want protected, and enable the toggle on the settings page.
 
-
+![screenshot of settings page](https://github.com/ademti-software/form-protection/blob/screenshots/form-settings.png?raw=true)
