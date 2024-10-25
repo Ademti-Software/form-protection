@@ -1,0 +1,29 @@
+{
+    "name": "ademti-software/form-protection",
+    "autoload": {
+        "psr-4": {
+            "Ademti\\FormProtection\\": "src"
+        }
+    },
+    "require": {
+        "statamic/cms": "^5.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "pixelfear/composer-dist-plugin": true
+        }
+    },
+    "extra": {
+        "statamic": {
+            "name": "Form Protection",
+            "description": "Form Protection addon"
+        },
+        "laravel": {
+            "providers": [
+                "Ademti\\FormProtection\\ServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
