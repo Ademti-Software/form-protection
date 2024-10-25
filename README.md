@@ -15,7 +15,7 @@ This addon adds configuration to your Statamic forms that lets you:
 ``` bash
 composer require ademti-software/form-protection
 ```
-``
+
 ## How to Use
 
 Edit any forms you want protected, and enable the toggle on the settings page.
