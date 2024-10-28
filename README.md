@@ -2,7 +2,7 @@
 
 > Form Protection is a Statamic addon that adds [David Walsh](https://davidwalsh.name/wordpress-comment-spam) inspired anti-spam protection to Statamic forms.
 
-**Requires as-yet uncommitted patches to Statamic. Do not use at this point in time**
+**Note:** Requires Statamic v5.35.0 or above
 
 ## Features
 
